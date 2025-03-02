@@ -1,0 +1,96 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0 !important;
+	padding: 0 !important;
+	font: inherit !important;
+    font-family: 'Courier New', Courier, monospace !important;
+}
+body {
+    background-color: rgb(42, 107, 235) !important;
+}
+
+header {
+    background-color: white;
+    height: 50px;
+}
+ul {
+    display: flex;
+    list-style-type: none !important;
+    gap: 50px;
+    justify-content: end;
+    height: 40px !important;
+    padding-top: 20px !important;
+    margin-left: 10px !important;
+    padding-right: 30px !important;
+}
+li {
+    font-size: 20px;
+}
+a { 
+    text-decoration: none !important;
+}
+li > a {
+    color:black !important;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+}
+.hero-text {
+    font-size: 30px !important;
+    display: inline;
+}
+.login {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+}
+.login-text {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.platforms {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.network {
+    background-color: rgb(205, 196, 196);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px !important;
+    width: 90px !important;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sing-up {
+    color: blue !important;
+}
