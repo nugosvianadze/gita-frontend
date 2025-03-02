@@ -1,0 +1,26 @@
+/* #login-form-header {
+    font-size: 50px;
+    color:red;
+} */
+
+.headers-tag {
+    font-size: 50px;
+    color: blue;
+}
+p {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-style: italic;
+}
+h1 {
+    text-align: center;
+}
+form {
+    background-color: aquamarine;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 300px;
+    width: 500px;
+}

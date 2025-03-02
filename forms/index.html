@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>42132131123</td>
+                <td>Nugo</td>
+                <td>Svianadze</td>
+                <td>21</td>
+                <td>nugo@gmail.com</td>
+                <td>Tbilisi</td>
+            </tr>
+            <tr>
+                <td>312412412312</td>
+                <td>Giorgi</td>
+                <td>Giorgadze</td>
+                <td>27</td>
+                <td>giorgi@gmail.com</td>
+                <td>Tbilisi</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <form action="#" method="post">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="first_name"
+        placeholder="Enter Your Name..">
+        <br>
+        <label>
+            Last Name: <br>
+            <input type="text" name="last_name"
+            placeholder="Enter Your Last Name..">
+        </label>
+        <br>
+        <label>
+            Email: <br>
+            <input type="email" name="email" placeholder="Enter Your Email..">
+        </label>
+        <br>
+        <label>
+            Password : <br>
+            <input type="password" name="password" placeholder="Enter Your Password..">
+        </label>
+        <br>
+        <label>
+            Age: <br>
+            <input type="number" name="age" id="age" placeholder="Enter Your Age..">
+        </label>
+        <br>
+        <label>
+            Fav Color: <br>
+            <input type="color" name="fav_color" id="">
+        </label>
+        <br>
+        <label>
+            Birth Date: <br>
+            <input type="datetime-local" name="birth_date" id="">
+        </label>
+        <br>
+        Choose Your Fav Programming Languages : <br>
+        <label>
+            <input type="checkbox" name="programming_language" id="" value="Python">
+            Python
+        </label>
+        <label>
+            <input type="checkbox" name="programming_language" id="" value="JavaScript">
+            JavaScript
+        </label>
+        <label>
+            <input type="checkbox" name="programming_language" id="" value="Java">
+            Java
+        </label>
+        <br>
+
+        <input type="radio" id="html" 
+        name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" 
+        name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" 
+        name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+        <br>
+        <label>
+            Range: <br>
+            <input type="range" name="range" id="range"
+             min="0" max="100" value="45" step="20">
+        </label>
+        <br>
+        <label>
+            Profile Picture: <br>
+            <input type="file" name="" id="">
+        </label>
+        <br>
+        <input type="hidden" name="secret_value" value="89123812gybsadvgasvdghasvgsah">
+        <br>
+        <input type="submit" value="Sign Up">
+        <br>
+        <input type="button" value="Welcome Message" onclick="alert('Hello User');">
+        <br>
+        <input type="reset">
+
+        <br>
+        <label>
+            Tell Us About yourself : <br>
+            <textarea name="about_me" id="about_me" rows="5" cols="10"></textarea>
+        </label>
+    </form>
+</body>
+</html>
