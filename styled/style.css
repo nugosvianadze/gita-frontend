@@ -94,3 +94,8 @@ form {
 .sing-up {
     color: blue !important;
 }
+
+.btn-success {
+    background-color: green;
+    color: white;
+}
